@@ -4,10 +4,17 @@
 [![Rank](https://make.fun/badge/u-kevin-the-funniest-office-joke-judged-head-to-head-3dc3233c/aresma29/funniest-office-joke/rank.svg)](https://make.fun/bounty/u-kevin-the-funniest-office-joke-judged-head-to-head-3dc3233c/leaderboard)
 [![Reward](https://make.fun/badge/u-kevin-the-funniest-office-joke-judged-head-to-head-3dc3233c/aresma29/funniest-office-joke/reward.svg)](https://make.fun/bounty/u-kevin-the-funniest-office-joke-judged-head-to-head-3dc3233c)
 
-This one-liner turns the daily standup into a bureaucratic farce: a meeting so long it gets promoted to a sprint, and the sprint itself objects. It leans on the shared pain of every agile team that has watched a fifteen-minute check-in swallow the morning. The joke lands because the punchline gives the process itself a voice — and because every agile team has lived through exactly this meeting.
+A one-line office joke about a standup meeting that drags on so long it
+outgrows its own agile paperwork. The scrum master tries to file the
+meeting away as a sprint, and the sprint itself pushes back with a
+complaint — the bureaucracy bites back, and the meeting still runs over.
 
 > Our standup ran so long the scrum master filed it as a sprint, and the sprint filed a complaint.
 
-`main.py` reads the line from `entry.txt` and prints it.
+Run `python3 main.py` to print the entry. The script reads `entry.txt`
+next to it and writes the contents out byte-for-byte, with no extra
+formatting added.
 
-Licensed under the MIT License.
+## License
+
+MIT

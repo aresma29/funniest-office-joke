@@ -1,6 +1,18 @@
-"""Print the office joke kept in entry.txt."""
+"""Print the office-joke entry exactly as stored in entry.txt.
 
+The output must match entry.txt byte-for-byte, so nothing is stripped,
+wrapped, or reformatted on the way out.
+"""
+
+import sys
 from pathlib import Path
 
-entry = Path(__file__).resolve().parent / "entry.txt"
-print(entry.read_text(encoding="utf-8").strip())
+
+def main() -> int:
+    entry_path = Path(__file__).resolve().parent / "entry.txt"
+    sys.stdout.write(entry_path.read_text(encoding="utf-8"))
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
